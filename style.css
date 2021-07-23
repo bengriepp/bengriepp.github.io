@@ -2,21 +2,11 @@ body {
     font-size: 45px;
     font-family: 'Karla', sans-serif;
     color: #bdc1db;
-    /*
-    padding: 0;
-    padding-left: 10%;
-    padding-top: 10%;
-    margin: 0;
-    white-space: nowrap;
-    line-height: 5px;
-    */
     margin-left:8%;
     margin-top:15%;
     line-height: 1;
-    
-
+    background-color: #2B2D42;
 }
-
 .fa {
     padding: 8px;
     text-align: center;
@@ -24,7 +14,6 @@ body {
     margin: 1% 0px 0px -5px;
     color: #bdc1db;
   }
-  
   .fa:hover {
       opacity: 0.4;
   }
