@@ -5,8 +5,6 @@ const lc = '#505268';
 
 function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
-
-  //p = new Particle();
 }
 
 function setup() {
@@ -25,7 +23,6 @@ class Particle{
   constructor(){
     this.pos = createVector(random(width*1.2) -.1, random(height*1.2)-.1);
     this.vel = createVector(random(-1.3, 1.3), random(-1.3, 1.3));
-
     this.size = 10;
   }
 
@@ -59,7 +56,6 @@ class Particle{
       }
     })
   }
-
 }
 
 function draw() {
