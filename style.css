@@ -6,6 +6,7 @@ body {
     margin-top:15%;
     line-height: 1;
     background-color: #2B2D42;
+    overflow: hidden;
 }
 .fa {
     padding: 8px;
